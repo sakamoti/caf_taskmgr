@@ -12,3 +12,8 @@ coarray task manager sample (simplified edition)
 |ifort    | 2021.5.0 |
 
 `cd sample && make && make run && ./co_task_test_ifort`
+
+# Warning
+"OOP_co_taskmgr" folder contain sources using *class*.  These sources
+can be comiled with nagfor(7.1) and ifort(2021.6.0). Though compilation and linking are done,
+*ifort* can't run correctry. Only nagfor works as I expect. 
